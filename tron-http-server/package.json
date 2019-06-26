@@ -1,0 +1,31 @@
+{
+  "name": "tron-http-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Flott-org/tron-http-server.git"
+  },
+  "author": "tron.watch",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/Flott-org/tron-http-server/issues"
+  },
+  "homepage": "https://github.com/Flott-org/tron-http-server#readme",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "connect-datadog": "0.0.6",
+    "decimal.js": "^10.0.0",
+    "express": "^4.16.3",
+    "grpc": "^1.12.2",
+    "grpc-caller": "^0.5.0",
+    "mongodb": "^3.1.0-beta4",
+    "mysql": "^2.15.0",
+    "tron-http-tools": "github:Flott-org/tron-http-tools",
+    "ws": "^5.1.1"
+  }
+}

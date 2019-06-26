@@ -1,0 +1,22 @@
+{
+	"port" : 8088,
+	"port_ws" : 8089,
+	
+	"fullnode" : {
+		"host" : "127.0.0.1",
+		"port" : "50051"
+	},
+	
+	"soliditynode" : {
+		"host" : "127.0.0.1",
+		"port" : "50052"
+	},
+	
+	"mongo" : {
+		"db" : "tronwatch",
+		"host" : "127.0.0.1",
+		"username" : "tronwatch",
+		"password" : "",
+		"auth_mechanism" : "SCRAM-SHA-1"
+	}
+}
