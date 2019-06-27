@@ -102,8 +102,6 @@ export function computeAddress(pubBytes) {
 
     const hash = keccak256(pubBytes).toString();
     const addressHex = ADDRESS_PREFIX + hash.substring(24);
-  console.log('computeAddress b---addressHex:', ADDRESS_PREFIX, addressHex);
-  console.log('computeAddress b---hexStr2byteArray:', hexStr2byteArray(addressHex));
   
     return hexStr2byteArray(addressHex);
 }
@@ -254,10 +252,6 @@ export function SHA256(msgBytes) {
 export function passwordToAddress(password) {
     const com_priKeyBytes = base64DecodeFromString(password);
     const com_addressBytes = getAddressFromPriKey(com_priKeyBytes);
-
-  console.log('passwordToAddress b111:', password);
-  console.log('passwordToAddress b222:', com_addressBytes);
-  console.log('passwordToAddress b333:', getBase58CheckAddress(com_addressBytes));
 
     return getBase58CheckAddress(com_addressBytes);
 }
