@@ -17,7 +17,7 @@
   },
   "homepage": "https://github.com/TronWatch/tron-http-client#readme",
   "dependencies": {
-    "axios": "^0.18.0",
+    "axios": "^0.21.1",
     "qs": "^6.5.2",
     "tron-http-tools": "tronwatch/tron-http-tools"
   }
